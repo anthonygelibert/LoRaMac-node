@@ -56,7 +56,7 @@ Maintainer: Andreas Pella (IMST GmbH), Miguel Luis and Gregory Cristian
  *         Remove the original jumpers for that. 
  *         On SK-iM880A X5 is the 20 pin header close to the DIP SW and Buttons
  */
-#define USE_POTENTIOMETER                           1
+#define USE_POTENTIOMETER                           0
 
 
 /*!

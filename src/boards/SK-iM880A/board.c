@@ -140,7 +140,7 @@ void BoardInitMcu( void )
         SystemClockReConfig( );
     }
 
-    AdcInit( &Adc, POTI );
+    //AdcInit( &Adc, POTI );
 
     SpiInit( &SX1272.Spi, RADIO_MOSI, RADIO_MISO, RADIO_SCLK, NC );
     SX1272IoInit( );
